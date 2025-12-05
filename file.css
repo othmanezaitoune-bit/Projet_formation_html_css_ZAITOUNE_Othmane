@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.avatar-img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(0, 54, 5);
+    color: whitesmoke;
+    padding: 15px,30px;
+}
+
+.navbar li{
+    margin-left: 20px;
+}
+
+.navbar ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.navbar a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: bold;
+    padding:5px, 10px;
+}
+
+.navbar a:hover{
+    color: greenyellow;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap:10px;
+    font-weight: bold;
+    font-size: 1.8em;
+    cursor:default;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+table th, table td{
+    padding: 8px;
+    text-align: left;
+    border: 1px solid black;
+}
+
+table th{
+    background-color: white;
+}
+
+.login-form{
+    gap: 15px;
+    max-width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form label{
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.login-form input{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.login-form button{
+    padding:10px;
+    background-color: rgb(125, 161, 161);
+    color:rgb(4, 52, 4);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.login-form button:hover{
+    background-color: green;
+}
+
+.footer {
+    background-color: #071d06;
+    color:whitesmoke;
+    text-align: center;
+    padding: 15px 0;
+    bottom: 0;
+    width: 100%;
+}
+
+h2{
+    margin-bottom: 10px;
+    border-bottom: 2px solid;
+}
+section{
+    padding:5px;
+    margin: 3px;
+}
